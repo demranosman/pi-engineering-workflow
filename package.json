@@ -1,7 +1,7 @@
 {
   "name": "pi-engineering-workflow",
   "version": "0.1.0",
-  "description": "Evidence-gated plan, architecture, implementation and verify workflow for Pi.",
+  "description": "Evidence-gated plan, architecture, implementation, and verify workflow for the Pi coding agent.",
   "type": "module",
   "license": "MIT",
   "keywords": [

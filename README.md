@@ -1,6 +1,8 @@
 # pi-engineering-workflow
 
-Evidence-gated engineering workflow for Pi:
+[![CI](https://github.com/demranosman/pi-engineering-workflow/actions/workflows/ci.yml/badge.svg)](https://github.com/demranosman/pi-engineering-workflow/actions/workflows/ci.yml)
+
+Evidence-gated plan, architecture, implementation, and verify workflow for the Pi coding agent.
 
 ```text
 PLAN -> ARCHITECTURE -> IMPLEMENTATION -> VERIFY -> DONE
