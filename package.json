@@ -1,0 +1,44 @@
+{
+  "name": "pi-engineering-workflow",
+  "version": "0.1.0",
+  "description": "Evidence-gated plan, architecture, implementation and verify workflow for Pi.",
+  "type": "module",
+  "license": "MIT",
+  "keywords": [
+    "pi-package",
+    "pi",
+    "pi-extension",
+    "engineering",
+    "workflow",
+    "gates"
+  ],
+  "pi": {
+    "extensions": [
+      "./src/engineering-workflow.ts"
+    ]
+  },
+  "files": [
+    "src",
+    "examples",
+    "README.md",
+    "LICENSE",
+    "CHANGELOG.md"
+  ],
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*"
+  },
+  "engines": {
+    "node": ">=22.6"
+  },
+  "scripts": {
+    "test": "node --experimental-strip-types --test test/engineering-workflow.test.ts test/engineering-workflow.regression.test.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/demranosman/pi-engineering-workflow.git"
+  },
+  "homepage": "https://github.com/demranosman/pi-engineering-workflow#readme",
+  "bugs": {
+    "url": "https://github.com/demranosman/pi-engineering-workflow/issues"
+  }
+}

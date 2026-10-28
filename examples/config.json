@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "max_auto_repair_prompts": 1,
+  "max_revisions_per_phase": 2,
+  "engineering_dir": "",
+  "quality_pipeline_dir": "",
+  "phase_models": {},
+  "commands": {
+    "test": "npm test",
+    "lint": "",
+    "typecheck": "",
+    "build": ""
+  },
+  "gates": {
+    "placeholder": true,
+    "contract_integrity": true,
+    "scope": true,
+    "verification": true
+  }
+}

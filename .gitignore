@@ -1,0 +1,13 @@
+node_modules/
+.engineering-agent/
+.pi/
+sessions/
+logs/
+dist/
+legacy/
+*.bak
+*.bak-*
+auth.json
+models-store.json
+.env
+.env.*
