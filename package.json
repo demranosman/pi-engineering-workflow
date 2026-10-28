@@ -27,6 +27,9 @@
   "peerDependencies": {
     "@earendil-works/pi-coding-agent": "*"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "engines": {
     "node": ">=22.6"
   },
