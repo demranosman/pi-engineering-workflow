@@ -40,6 +40,18 @@ scope drift, and unverified claims block the flow.
 
 ## Install
 
+From npm (once published):
+
+```bash
+pi install npm:pi-engineering-workflow
+```
+
+From GitHub:
+
+```bash
+pi install git:github.com/demranosman/pi-engineering-workflow
+```
+
 Local development:
 
 ```bash
